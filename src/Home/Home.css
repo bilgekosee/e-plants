@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 44px 96px;
+  align-items: center;
+}
+.title-navbarItem {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  align-items: center;
+}
+.title {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+}
+.navbar-item {
+  display: flex;
+  gap: 48px;
+}
+.navbar-item a {
+  text-decoration: none;
+  color: black;
+}
+.navbar-icons {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+.one-line {
+  border-right: 1px solid black;
+  height: 24px;
+}
+.three-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 6px;
+}
+.line {
+  height: 2px;
+  background-color: black;
+  border-radius: 2px;
+}
+
+.line:nth-child(1) {
+  width: 30px;
+}
+
+.line:nth-child(2) {
+  width: 20px;
+}
+
+.line:nth-child(3) {
+  width: 10px;
+}
