@@ -4,6 +4,9 @@
   padding: 44px 96px;
   align-items: center;
 }
+.contact {
+  display: flex;
+}
 .title-navbarItem {
   display: flex;
   justify-content: space-between;
@@ -56,4 +59,110 @@
 
 .line:nth-child(3) {
   width: 10px;
+}
+
+.background-container {
+  background-color: #c1dcdc;
+  width: 1248px;
+  height: 512px;
+  margin: 35px 96px;
+  border-radius: 24px;
+}
+.tagline {
+  width: 512px;
+  height: 136px;
+  font-weight: bold;
+  font-size: 64px;
+  font-family: "Poppins", serif;
+  padding: 48px;
+  line-height: 1.2;
+}
+.plantSpecies {
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
+  padding-right: 48px;
+}
+.counterLine {
+  border-left: 1px solid black;
+  height: 64px;
+  padding-right: 48px;
+}
+.counter {
+  display: flex;
+  padding: 0 48px;
+}
+.s-content {
+  font-size: 18px;
+  margin-top: 7px;
+}
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 48px;
+}
+
+.search-input {
+  width: 449px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  font-size: 18px;
+  padding-right: 40px;
+  padding-left: 10px;
+  border: 1px solid #c1dcdc;
+  box-sizing: border-box;
+}
+
+.search-icon {
+  position: absolute;
+  border: 1px solid #c1dcdc;
+  background-color: #c1dcdc;
+  border-radius: 12px;
+  padding: 9px;
+  left: 450px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: black;
+  pointer-events: none;
+}
+.plant-image-container {
+  flex: 1;
+  position: relative;
+}
+.circle {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  bottom: 0;
+}
+.spuare {
+  background-color: black;
+  display: flex;
+  width: 200px;
+  height: 212px;
+  border-radius: 0 57px 0 57px;
+}
+.circle-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.circle-container {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 55px;
+  top: 212px;
+}
+.square-container {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 0;
+  padding-right: 55px;
 }
