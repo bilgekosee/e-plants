@@ -18,13 +18,52 @@ const Home = () => {
           </div>
 
           <div className="navbar-icons">
-            <FontAwesomeIcon icon={faUser} title="Kullanıcı" />
             <FontAwesomeIcon icon={faShoppingCart} title="Sepet" />
+            <FontAwesomeIcon icon={faUser} title="Kullanıcı" />
+
             <div className="one-line"></div>
             <div className="three-line">
               <div className="line"></div>
               <div className="line"></div>
               <div className="line"></div>
+            </div>
+          </div>
+        </div>
+        <div className="background-container">
+          <div className="contact">
+            <div className="contact-wrapper">
+              <div className="tagline">Buy your dream plants</div>
+              <div className="counter">
+                <span className="plantSpecies">
+                  <strong>50+</strong>
+                  <span className="s-content">Plant Species</span>
+                </span>
+                <div className="counterLine"></div>
+                <span className="plantSpecies">
+                  <strong>100+</strong>
+                  <span className="s-content">Costumers</span>
+                </span>
+              </div>
+              <div className="search">
+                <input
+                  type="search"
+                  className="search-input"
+                  placeholder="What are you looking for?"
+                />
+                <i className="fas fa-search search-icon"></i>
+              </div>
+            </div>
+            <div className="plant-image-container">
+              <div className="responsive">
+                <div className="circle-wrapper">
+                  <div className="circle-container">
+                    <div className="circle"></div>
+                  </div>
+                  <div className="square-container">
+                    <div className="spuare"></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
