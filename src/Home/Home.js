@@ -60,7 +60,9 @@ const Home = () => {
                     <div className="circle"></div>
                   </div>
                   <div className="square-container">
-                    <div className="spuare"></div>
+                    <div className="spuare">
+                      <img src="./plants1.png" height="400px"></img>
+                    </div>
                   </div>
                 </div>
               </div>
