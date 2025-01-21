@@ -1,0 +1,59 @@
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.best-selling {
+  display: flex;
+  flex-direction: column;
+  font-family: "Libre Baskerville", serif;
+  gap: 15px;
+
+  padding: 48px;
+}
+.strong-span {
+  font-size: 32px;
+  width: 256px;
+  height: 96px;
+  text-align: start;
+  line-height: 1.2;
+}
+.content {
+  font-size: 18px;
+  color: #999;
+  text-align: start;
+}
+button {
+  width: 168px;
+  height: 51px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c1dcdc;
+  border: none;
+  border-radius: 8px;
+}
+.plants-products {
+  display: flex;
+  gap: 40px;
+}
+.plants-products img {
+  border-radius: 12px;
+  height: 363px;
+  width: 300px;
+}
+.plants-categoryPrice {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.name-plant {
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+.price {
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  color: #999;
+}

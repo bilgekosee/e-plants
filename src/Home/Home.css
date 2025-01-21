@@ -220,7 +220,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 435px;
+    width: 550px;
     height: 770px;
   }
   .home-container {
@@ -251,7 +251,7 @@
 
   .search-input {
     width: 360px;
-    height: 45px;
+    height: 50px;
   }
   .search-icon {
     left: 368px;
