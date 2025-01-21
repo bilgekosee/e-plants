@@ -1,13 +1,14 @@
 .products-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding: 70px 100px;
 }
 .best-selling {
   display: flex;
   flex-direction: column;
   font-family: "Libre Baskerville", serif;
   gap: 15px;
-
+  width: 250px;
   padding: 48px;
 }
 .strong-span {
@@ -56,4 +57,39 @@ button {
   font-family: "Libre Baskerville", serif;
   font-size: 18px;
   color: #999;
+}
+
+@media screen and (max-width: 1440px) {
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 70px 50px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .plants-products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .products-container {
+    padding: 70px 100px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .plants-products {
+    display: flex;
+    flex-direction: column;
+  }
+  .products-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 100px;
+  }
+  #products {
+    width: 100vh;
+  }
 }
