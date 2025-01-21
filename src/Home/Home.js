@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import "./Home.css";
+import Product from "../Products/Product";
 
 const Home = () => {
   return (
@@ -70,6 +71,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Product />
     </section>
   );
 };
