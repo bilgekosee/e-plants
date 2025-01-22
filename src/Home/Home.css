@@ -63,9 +63,9 @@
 
 .background-container {
   background-color: #c1dcdc;
-  width: 1248px;
+  width: auto;
   height: 512px;
-  margin: 35px auto;
+  margin: 35px 148px;
   border-radius: 24px;
 }
 .tagline {
@@ -174,12 +174,14 @@
 
 @media screen and (max-width: 1400px) {
   .background-container {
-    width: 1100px;
+    width: auto;
+    margin: 48px 148px;
   }
 }
 @media screen and (max-width: 1130px) {
   .background-container {
-    width: 900px;
+    width: auto;
+    margin: 35px 25px;
   }
 }
 
@@ -196,7 +198,8 @@
 
   .background-container {
     height: 975px;
-    width: 600px;
+    width: auto;
+    margin: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,6 +217,9 @@
     display: flex;
     margin-top: 10px;
   }
+}
+
+@media screen and (max-width: 760px) {
   .home-container {
     width: 100vh;
   }
@@ -223,7 +229,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 550px;
+    width: auto;
+    margin: 48px;
     height: 770px;
   }
   .home-container {
