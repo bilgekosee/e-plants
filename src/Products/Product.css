@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 70px 100px;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 #products {
   overflow-y: hidden;
@@ -12,7 +12,7 @@
   flex-direction: column;
   font-family: "Libre Baskerville", serif;
   gap: 15px;
-  width: 250px;
+  width: auto;
   padding: 48px;
 }
 .strong-span {
