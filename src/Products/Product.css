@@ -2,6 +2,10 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 70px 100px;
+  overflow-y: hidden;
+}
+#products {
+  overflow-y: hidden;
 }
 .best-selling {
   display: flex;
@@ -37,6 +41,7 @@ button {
 .plants-products {
   display: flex;
   gap: 40px;
+  padding: 48px;
 }
 .plants-products img {
   border-radius: 12px;
@@ -63,16 +68,21 @@ button {
   .products-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 70px 50px;
+    padding: 70px 100px;
   }
 }
 
 @media screen and (max-width: 1050px) {
   .plants-products {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
+
   .products-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 70px 100px;
   }
 }

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import "./Home.css";
 import Product from "../Products/Product";
+import About from "../About/About";
 
 const Home = () => {
   return (
@@ -72,6 +73,7 @@ const Home = () => {
         </div>
       </div>
       <Product />
+      <About />
     </section>
   );
 };
