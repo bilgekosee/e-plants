@@ -33,7 +33,8 @@ const About = () => {
             <FontAwesomeIcon icon={faHeadset} className="fontawesome" />
             <span className="big-title-aboutUs">24/7 Support</span>
             <span className="title-aboutUs">
-              answers to any business related inquiry 24/7 and in real-time.
+              answers to any business-related inquiry 24/7 and in real-time,
+              ensuring efficient support for your goals.
             </span>
           </div>
         </div>

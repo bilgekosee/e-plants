@@ -72,7 +72,7 @@ button {
   }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1150px) {
   .plants-products {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

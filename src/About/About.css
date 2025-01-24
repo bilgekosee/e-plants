@@ -20,20 +20,24 @@
 }
 .aboutUs-content {
   display: grid;
+  gap: 10px;
+  align-items: center;
   grid-template-columns: repeat(3, 1fr);
   margin: 48px 148px;
+  justify-items: center;
+  text-align: center;
 }
 
 .fontawesome {
   display: flex;
   justify-content: center;
   align-items: center;
-
   border: 1px solid #c1dcdc;
   border-radius: 50%;
   background-color: #c1dcdc;
-  font-size: 30px;
   border-width: 20px;
+  width: 30px;
+  height: 30px;
   margin: auto;
 }
 .about-group {
@@ -54,4 +58,23 @@
   font-weight: normal;
   font-family: "Libre Baskerville", serif;
   color: #999;
+  height: 70px;
+}
+@media screen and (max-width: 1150px) {
+  .aboutUs-content {
+    margin: 48px 100px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .aboutUs-content {
+    margin: 48px 50px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .about-container {
+    width: 100vh;
+  }
+  .aboutUs-content {
+    margin: 48px 20px;
+  }
 }
