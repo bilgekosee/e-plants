@@ -4,6 +4,7 @@ import { faUser, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import "./Home.css";
 import Product from "../Products/Product";
 import About from "../About/About";
+import Category from "../Category/Category";
 
 const Home = () => {
   return (
@@ -74,6 +75,7 @@ const Home = () => {
       </div>
       <Product />
       <About />
+      <Category />
     </section>
   );
 };
