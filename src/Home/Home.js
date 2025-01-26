@@ -5,6 +5,7 @@ import "./Home.css";
 import Product from "../Products/Product";
 import About from "../About/About";
 import Category from "../Category/Category";
+import Customers from "../Customers/Customers";
 
 const Home = () => {
   return (
@@ -76,6 +77,7 @@ const Home = () => {
       <Product />
       <About />
       <Category />
+      <Customers />
     </section>
   );
 };
