@@ -1,0 +1,92 @@
+.customer-title {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Libre Baskerville", serif;
+  text-align: left;
+  height: 96px;
+  width: 457px;
+  margin: 96px 148px 48px 148px;
+}
+
+.customer-comment {
+  background-color: #c1dcdc;
+  min-width: 800px;
+  min-height: 330px;
+  border-radius: 12px;
+  margin: 0 148px;
+}
+.comment-span {
+  font-size: 18px;
+  color: #1e1e1e9f;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 600;
+}
+.span-container {
+  padding: 50px;
+}
+.faQuoteLeft {
+  width: 48px;
+  height: 50px;
+  position: relative;
+  bottom: 140px;
+  left: 45px;
+}
+.customer img {
+  position: relative;
+  bottom: 38px;
+  right: 33px;
+}
+.customer {
+  position: relative;
+  right: 115px;
+}
+.customer-part1 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 41px;
+}
+.customer-part2 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 55px;
+}
+.name-customer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  position: relative;
+  right: 150px;
+  top: 30px;
+}
+.name-span {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Libre Baskerville", serif;
+}
+.job {
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Libre Baskerville", serif;
+  color: #8f8f8f;
+}
+.customer-star {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 30px;
+}
+.customer-flex1 {
+  display: flex;
+}
+.customer-group {
+  display: flex;
+}
+.customer-container {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  padding: 20px 0;
+}
