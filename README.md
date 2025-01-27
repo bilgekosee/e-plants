@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# LİVE
+# LIVE
 [GreenMind](https://greenmnd-billge.netlify.app/)
 
 ## Available Scripts
