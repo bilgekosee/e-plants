@@ -6,6 +6,7 @@ import Product from "../Products/Product";
 import About from "../About/About";
 import Category from "../Category/Category";
 import Customers from "../Customers/Customers";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
@@ -78,6 +79,7 @@ const Home = () => {
       <About />
       <Category />
       <Customers />
+      <Footer />
     </section>
   );
 };
